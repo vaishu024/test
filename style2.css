@@ -1,0 +1,17 @@
+
+body{
+    /* /background-color:rgb(236, 227, 210);  */
+    background-image: url("https://images.pexels.com/photos/59816/swan-bird-nature-water-bird-59816.jpeg?auto=compress&cs=tinysrgb&w=");
+    background-repeat: no-repeat;
+     background-size: cover;  
+    /* background-position: left; */
+}
+form{
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: darkslategrey; */
+    width: 12rem;
+    height: 23rem;
+    background-color:rgba(240, 248, 255, 0.333 );
+    border: 1px solid black; 
+}

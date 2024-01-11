@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+}
+.heading img{
+    height: 50px;
+     background-color: aliceblue;
+}
+form{
+    background-color:white;
+    margin-top: 10rem;
+   padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    border: 1px solid rgba(199, 199, 199, 0.4);
+   height: 30rem;
+   width: 25rem;
+}
+table{
+    margin-top: 1rem;
+}
+input[type="text"]{
+    width: 19rem;
+}
+.table table{
+    font-size: small;
+    margin-top: 1rem;
+    border-collapse: separate;
+    border-spacing: 0 30px;
+    border: 1px solid white;
+}

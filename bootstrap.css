@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/4893666.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+form{
+    border: 1px solid hsl(0, 2%, 8%);
+    width: 28rem;
+    height: 20rem;
+    margin-top: 15rem;
+    -webkit-text-fill-color: aliceblue; 
+    padding-top: 3rem;
+    background-color: rgba(240, 248, 255, 0.137);
+    font-family:cursive ;
+}
+input[type="email"],[type="password"]{
+    background-color: rgba(240, 248, 255, 0.16);
+}
+#button{
+    margin-left: 5rem;
+}

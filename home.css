@@ -1,0 +1,26 @@
+header{
+    
+    background-color:rgba(105, 105, 105, 0.164);
+    height: 5rem;
+    
+}
+form{
+    background-color:honeydew;
+    border: 1px solid black;
+    width: 28rem;
+    height: 20rem;
+
+}
+table{
+    margin-top: 1rem;
+}
+input[type="text"]{
+    width: 20rem;
+    height: 3rem;
+}
+.table table{
+    border-collapse: separate;
+    border-spacing: 0 30px;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}

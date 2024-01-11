@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="reglog.css">
+    </head>
+    <body>
+        <div class="main">
+        <form>
+        <table cellpadding="2px" cellspacing="10px">
+            <h1>REGISTER</h1>
+            <hr/>
+            <tr>
+                <th>Enter the First Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Enter the Second Name</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Enter the Email id</th>
+                <td><input type="email"></td> 
+                </tr>
+                <tr>
+                    <th> Gender:</th>
+                    <td><input type="radio" value="male"name="Gender">
+                 Male 
+                 <input type="radio" value="Female" name="Gender">
+                 Female 
+                 <input type="radio" value="Others" name="Gender">
+                 Others </td>
+                 </tr>
+                 <tr>
+                    <th>District></th>
+                    <td><select name="District">
+                        <option value=""></option>
+                        <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                        <option value="Kollam">Kollam</option>
+                        <option value="Ernakulam">Ernakulam</option>
+                        <option value="Thrissur">Trissur</option>
+                        <option value="Alappuzha">Alappuzha</option>
+                        <option value="Kottayam">Kottayam</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td><input type="password" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                <td><button value="login" id="btt1">Login</button></td>
+                <td><button value="register" id="btt2">Register</button></td>
+                </tr>
+            </div>
+        </table>
+        </form>
+        </div>
+        <div class="main2">
+            <form>
+                <table cellpadding="2px" cellspacing="10px">
+                    <h1>LOGIN</h1>
+                    <hr/>  
+                    <tr>
+                   <th> UserName:</th>
+                   <td><input type="text" placeholder="Enter Username"></td>
+                </tr>
+                <tr>
+                   <th> Password:</th>
+                   <td><input type="password" placeholder="Enter Password"></td>
+                   </tr>
+                   <tr>
+                    <th> Gender:</th>
+                    <td><input type="radio" value="male"name="Gender">
+                    Male 
+                    <input type="radio" value="Female" name="Gender">
+                    Female 
+                    <input type="radio" value="Others" name="Gender">
+                    Others</td>
+                    </tr>
+                    <tr>
+                    <th>Languages:</th>
+                    </tr>
+                    <tr>
+                    <td><input type="checkbox" value="English">English<br/>
+                    <input type="checkbox" value="Malayalam">Malayalam<br/>
+                    <input type="checkbox" value="Hindi">Hindi</td>
+                    </tr>
+                    <td><button value="login" id="btt3">Login</button></td>
+                    <td><button value="sign up"id="btt4">Sign Up</button></td>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

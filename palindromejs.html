@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function palindrome(number){
+            let rem,temp,final=0
+            temp=number
+            while(number>0){
+                rem=number%10
+                number=parseInt(number/10)
+                final=final*10+rem
+            }
+            if(final==temp){
+                return true
+            }
+            else{
+                return false
+            }
+        }
+        console.log(palindrome(121))
+        
+    </script>
+</body>
+</html>

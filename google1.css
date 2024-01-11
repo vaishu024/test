@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+}
+.heading img{
+    height: 60px;
+}
+form{
+    background-color: white;
+    border: 1px solid rgba(146, 144, 144, 0.271);
+    height: 35rem;
+    width: 28rem;
+    margin-top: 8rem;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    box-shadow: 1px 1px 1px 1px rgba(158, 158, 158, 0.177);
+}
+table{
+    margin-top: 2rem;
+}
+input[type="text"]{
+    width: 25rem;
+    height: 3.5rem;
+}
+.table table{
+    border-collapse: separate;
+    border-spacing: 0 30px;
+}

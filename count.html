@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let string=prompt("Enter the String:")
+        // let count=0
+        // for(i=0;i<string.length;i++){
+        //     let letter=string[i].toLowerCase()
+        //     if(letter=='a'||letter=='e'||letter=='i'||letter=='o'||letter=='u'){
+        //      count++
+        //     }
+            
+        // }
+        // console.log("Vowels:",count)
+        // document.write("<br> The String is",string)
+
+        let num=121
+        let num1=num
+        let rev=0
+        while(num!=0){
+            digit=parseInt(num%10)
+            rev=rev*10+digit
+            num=parseInt(num/10)
+        }
+        if(num1==rev){
+            console.log("Palindrome")
+        }
+        else{
+            console.log("Not palindrome")
+        }
+      </script> 
+</body>
+</html>

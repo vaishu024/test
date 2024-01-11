@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function largest(a,b,c){
+            if(a>b && a>c){
+                console.log(`${a}is largest`)
+            }
+            else if(b>c && b>a){
+                console.log(`${b} is largest`)      //largest 3 numbers
+
+            }
+            else{
+                console.log(`${c} is largest`)
+            }
+        }
+        largest(50,100,40)
+
+
+        function sort(){
+            a=[10,5,55,22,16]
+            for(i=0;i<a.length;i++){
+            for(j=i+1;j<a.length;j++){
+                if(a[i]>a[j]){
+                    let temp=a[i]
+                    a[i]=a[j]
+                    a[j]=temp
+                }
+            }
+        }
+        console.log(`sorted array is ${a}`)
+        }
+        sort()
+
+
+    </script>
+</body>
+</html>

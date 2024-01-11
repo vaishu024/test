@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a=[10,20,15,14]
+        a.pop()               //pop
+        console.log(a)
+        a.push(6)              //push
+        console.log(a)
+        a.shift()              //shift
+        console.log(a)
+        a.unshift(8)
+        console.log(a)          //unshift
+
+        b=[8,7]
+        c=a.concat(b)
+        console.log(c)         //concat
+        d=[10,9]
+        e=c.concat(d)
+        
+
+        j=[12,67,54,38]
+        j.sort()              //sort
+        console.log(j)
+
+
+
+        k=[10,21,44,39]
+        m=k.slice(0,3)
+        console.log(m)
+        n=k.slice(-1)         //slice
+        console.log(n)
+        o=k.slice(2)
+        console.log(o)
+
+
+        // p=['cut','mango','elephant']
+        // console.log(p.length)              //length
+
+        p=['cut','mango','elephant']
+
+        for(i=0;i<p.length;i++){
+        
+          console.log(p[i])
+        }
+        console.log(p.length)
+
+        sum=0
+        avg=0
+        q=[2,4,6,8,10] 
+        for(i=0;i<q.length;i++){
+            sum=sum+q[i]
+                avg=sum/q.length
+            }
+            console.log(avg)
+
+
+
+            // sum=0
+            // avg=0
+            // q=[1,2,3,4,5]
+            // for(i=0;i<q.length;i++){
+            //     sum=sum+q[i]
+            //     avg=sum/q.length
+            // }
+            // console.log(avg)
+        
+    </script>
+    
+</body>
+</html>
